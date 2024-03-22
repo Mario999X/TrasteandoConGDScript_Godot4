@@ -1,0 +1,15 @@
+AudioStreamPlayer
+ColorRect
+CanvasLayer
+Timer
+Button
+Label
+PathFollow2D
+Path2D
+Marker2D
+Node
+CollisionShape2D
+VisibleOnScreenEnabler2D
+AnimatedSprite2D
+RigidBody2D
+Area2D
