@@ -1,8 +1,0 @@
-res://scenes/characters/player.tscn
-res://scenes/characters/player.gd
-res://scenes/characters/Mob.tscn
-res://scenes/characters/Mob.gd
-res://scenes/levels/MainLevel.tscn
-res://scenes/levels/MainLevel.gd
-res://scenes/hud_elements/HUD.tscn
-res://scenes/hud_elements/HUD.gd
