@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://bffj3flq4ao0q"]
+
+[ext_resource type="Script" path="res://Character.gd" id="1_8v6qs"]
+[ext_resource type="Texture2D" uid="uid://c5ktr58ai1818" path="res://icon.svg" id="1_t51h1"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_8rgf3"]
+vertices = PackedVector2Array(827, 376, 820, 89, 1074, 104, 1080, 584, 87, 587, 327, 366, 83, 75, 325, 82)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3), PackedInt32Array(0, 3, 4, 5), PackedInt32Array(5, 4, 6, 7)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(73, 65, 78, 598, 1091, 594, 1084, 95, 810, 79, 817, 366, 337, 356, 335, 73)])
+source_geometry_group_name = &"navigation_polygon_source_group"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c8gxo"]
+
+[node name="Main" type="Node"]
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+navigation_polygon = SubResource("NavigationPolygon_8rgf3")
+
+[node name="Character" type="CharacterBody2D" parent="."]
+position = Vector2(204, 173)
+script = ExtResource("1_8v6qs")
+
+[node name="AnimatedSprite2D" type="Sprite2D" parent="Character"]
+texture = ExtResource("1_t51h1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Character"]
+shape = SubResource("RectangleShape2D_c8gxo")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="Character"]
