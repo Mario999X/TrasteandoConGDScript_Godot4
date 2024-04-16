@@ -12,4 +12,9 @@ Esta es una réplica con algún cambio y comentario personal del tutorial ofreci
 
 ## [Multiplayer2D](Multiplayer2D)
 
-Se ha seguido este [tutorial](https://youtu.be/K62jDMLPToA?si=a9SC81j-mfTXXBAm) para hacer un multijugador básico peer to peer. Cuenta con comentarios.
+Se ha seguido este [tutorial](https://youtu.be/K62jDMLPToA?si=a9SC81j-mfTXXBAm) para hacer un multijugador muy básico peer to peer. Cuenta con comentarios en el código.
+
+## [Multiplayer3D](Multiplayer3D)
+
+Se ha seguido casí al completo este [tutorial](https://www.youtube.com/watch?v=n8D3vEx7NAE) para hacer un shooter multijugador 3D. Cuenta con comentarios en el código.
+También se ha usado la [documentación oficial](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html) ofrecida por Godot respecto al multijugador.
