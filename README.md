@@ -16,5 +16,11 @@ Se ha seguido este [tutorial](https://youtu.be/K62jDMLPToA?si=a9SC81j-mfTXXBAm) 
 
 ## [Multiplayer3D](Multiplayer3D)
 
-Se ha seguido casí al completo este [tutorial](https://www.youtube.com/watch?v=n8D3vEx7NAE) para hacer un shooter multijugador 3D. Cuenta con comentarios en el código.
+Se ha seguido casi al completo este [tutorial](https://www.youtube.com/watch?v=n8D3vEx7NAE) para hacer un shooter multijugador 3D. Cuenta con comentarios en el código.
 También se ha usado la [documentación oficial](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html) ofrecida por Godot respecto al multijugador.
+
+# [Pathfinding2D-NavegationAgent2D_V1](Navegation2D_V1)
+
+Se ha seguido de forma parcial este [tutorial](https://youtu.be/AGHtw8__oqw?si=4EA_SBG-y5Dj2EEX). Aplicacion de IA básica, desplazamiento en base a la posicion del ratón y el area establecida.
+Para solucionar un error con las físicas del motor, se usó esta [fuente](https://www.reddit.com/r/godot/comments/17j32vs/comment/k6yzsmt/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
+
