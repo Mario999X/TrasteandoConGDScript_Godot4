@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://oxpx0hfvl30h"
+path="res://.godot/imported/Troleado put0 (Coscu).mp3-d12ecd989d2b53d7f18869283738aaa7.mp3str"
+
+[deps]
+
+source_file="res://Troleado put0 (Coscu).mp3"
+dest_files=["res://.godot/imported/Troleado put0 (Coscu).mp3-d12ecd989d2b53d7f18869283738aaa7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

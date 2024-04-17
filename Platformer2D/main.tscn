@@ -1,0 +1,74 @@
+[gd_scene load_steps=8 format=3 uid="uid://chgp0xhsbwq6q"]
+
+[ext_resource type="PackedScene" uid="uid://n5h31jrey1ws" path="res://player.tscn" id="1_0ygvf"]
+[ext_resource type="Script" path="res://Target.gd" id="2_a3s4h"]
+[ext_resource type="AudioStream" uid="uid://oxpx0hfvl30h" path="res://Troleado put0 (Coscu).mp3" id="3_ibran"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_pxw16"]
+size = Vector2(500, 50)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5yh2o"]
+size = Vector2(504, 48)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_c1gmn"]
+radius = 5.0
+height = 50.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0apuc"]
+radius = 5.0
+height = 50.0
+
+[node name="Main" type="Node"]
+
+[node name="Player" parent="." instance=ExtResource("1_0ygvf")]
+position = Vector2(567, 350)
+
+[node name="Platform" type="StaticBody2D" parent="."]
+position = Vector2(576, 537)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Platform"]
+position = Vector2(4, 0)
+mesh = SubResource("QuadMesh_pxw16")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform"]
+position = Vector2(4, 0)
+shape = SubResource("RectangleShape2D_5yh2o")
+
+[node name="Platform2" type="StaticBody2D" parent="."]
+position = Vector2(1294, 531)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Platform2"]
+position = Vector2(4, 0)
+mesh = SubResource("QuadMesh_pxw16")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform2"]
+position = Vector2(4, 0)
+shape = SubResource("RectangleShape2D_5yh2o")
+
+[node name="Platform3" type="StaticBody2D" parent="."]
+position = Vector2(1889, 459)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Platform3"]
+position = Vector2(4, 0)
+mesh = SubResource("QuadMesh_pxw16")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform3"]
+position = Vector2(4, 0)
+shape = SubResource("RectangleShape2D_5yh2o")
+
+[node name="Target" type="Area2D" parent="."]
+position = Vector2(2037, 388)
+script = ExtResource("2_a3s4h")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Target"]
+position = Vector2(17, 20)
+mesh = SubResource("CapsuleMesh_c1gmn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Target"]
+position = Vector2(17, 20)
+shape = SubResource("CapsuleShape2D_0apuc")
+
+[node name="TroliadoPut0" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_ibran")
+
+[connection signal="body_entered" from="Target" to="Target" method="_on_body_entered"]

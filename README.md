@@ -34,3 +34,7 @@ En este caso, el personaje se desplaza de según la posición indicada con el cl
 ## [Pathfinding3D](Pathfinding3D)
 
 Pathfinding y NavegationAgent en 3D. Se ha seguido este [tutorial](https://youtu.be/EOocBMBbL-E?si=hU-QaIBP_onc7cr1). 
+
+## [Plataformas2D](Platformer2D)
+
+Ejemplo básico de un plataformas en 2D y movimiento de cámaras. Se ha seguido parcialmente este [tutorial](https://youtu.be/9u6edV5-EEI?si=P5eFAiuOpuPFpsbS).
