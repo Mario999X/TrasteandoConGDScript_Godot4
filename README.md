@@ -21,7 +21,7 @@ También se ha usado la [documentación oficial](https://docs.godotengine.org/en
 
 ## [Pathfinding2D-NavegationAgent2D_Seguimiento-Del-Ratón](PathFinding2D_V1)
 
-Se ha seguido de forma parcial este [tutorial](https://youtu.be/AGHtw8__oqw?si=4EA_SBG-y5Dj2EEX). Aplicacion de IA básica, desplazamiento en base a la posicion del ratón y el area establecida.
+Se ha seguido de forma parcial este [tutorial](https://youtu.be/AGHtw8__oqw?si=4EA_SBG-y5Dj2EEX). Aplicacion de IA básica, desplazamiento en base a la posición del ratón y el area establecida.
 Para solucionar un error con las físicas del motor, se usó esta [fuente](https://www.reddit.com/r/godot/comments/17j32vs/comment/k6yzsmt/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
 
 ## [Pathfinding2D-NavegationAgent2D_Clic-Del-Ratón](PathFinding2D_V-Alt)
@@ -31,3 +31,6 @@ En este caso, el personaje se desplaza de según la posición indicada con el cl
 
 [Documentación Oficial](https://docs.godotengine.org/en/stable/tutorials/navigation/navigation_using_navigationagents.html)
 
+## [Pathfinding3D](Pathfinding3D)
+
+Pathfinding y NavegationAgent en 3D. Se ha seguido este [tutorial](https://youtu.be/EOocBMBbL-E?si=hU-QaIBP_onc7cr1). 
