@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=3 uid="uid://dtas8k54wjfh5"]
+
+[ext_resource type="PackedScene" uid="uid://n5h31jrey1ws" path="res://player.tscn" id="2_sbt4y"]
+[ext_resource type="PackedScene" uid="uid://dx0wply5mavfr" path="res://platform_alt.tscn" id="2_titp2"]
+[ext_resource type="PackedScene" uid="uid://c5uolus3k8h1a" path="res://death_floor.tscn" id="3_igfdj"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_ge5pq"]
+size = Vector2(500, 50)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q10ly"]
+size = Vector2(504, 48)
+
+[node name="Level1" type="Node"]
+
+[node name="Platform" type="StaticBody2D" parent="."]
+position = Vector2(576, 537)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Platform"]
+position = Vector2(4, 0)
+mesh = SubResource("QuadMesh_ge5pq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform"]
+position = Vector2(4, 0)
+shape = SubResource("RectangleShape2D_q10ly")
+
+[node name="Platform2" type="StaticBody2D" parent="."]
+position = Vector2(1152, 466)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Platform2"]
+position = Vector2(4, 0)
+mesh = SubResource("QuadMesh_ge5pq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform2"]
+position = Vector2(4, 0)
+shape = SubResource("RectangleShape2D_q10ly")
+
+[node name="Platform3" type="StaticBody2D" parent="."]
+position = Vector2(2153, 463)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Platform3"]
+position = Vector2(4, 0)
+mesh = SubResource("QuadMesh_ge5pq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform3"]
+position = Vector2(4, 0)
+shape = SubResource("RectangleShape2D_q10ly")
+
+[node name="Player" parent="." instance=ExtResource("2_sbt4y")]
+position = Vector2(396, 427)
+
+[node name="VerticalPlatform" parent="." instance=ExtResource("2_titp2")]
+position = Vector2(1561, 654)
+
+[node name="DeathFloor" parent="." instance=ExtResource("3_igfdj")]
+position = Vector2(246, 471)

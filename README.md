@@ -38,3 +38,7 @@ Pathfinding y NavegationAgent en 3D. Se ha seguido este [tutorial](https://youtu
 ## [Plataformas2D](Platformer2D)
 
 Ejemplo básico de un plataformas en 2D y movimiento de cámaras. Se ha seguido parcialmente este [tutorial](https://youtu.be/9u6edV5-EEI?si=P5eFAiuOpuPFpsbS).
+
+## [Plataformas2D_V1](Platformer2D-V1)
+
+Agregado un cambio de escenas y una plataforma en movimiento haciendo uso de animaciones. DeathFloor y respawn del personaje agregados.

@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2o0wiq22n1em"]
+
+[ext_resource type="Script" path="res://ChangeLevelTarget.gd" id="1_pfojy"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_kivua"]
+radius = 26.426
+height = 52.852
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2yk7t"]
+radius = 26.43
+height = 52.86
+
+[node name="ChangeLevelTarget" type="Area2D"]
+position = Vector2(2666, 866)
+script = ExtResource("1_pfojy")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+mesh = SubResource("CapsuleMesh_kivua")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_2yk7t")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
