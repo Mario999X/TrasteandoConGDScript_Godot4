@@ -50,3 +50,8 @@ Aplicación básica de un tilemap de 16x16. Se ha seguido parte de este [tutoria
 ## [DoomClone](DoomClone)
 
 Clon del Doom original siguiendo un [tutorial](https://youtu.be/jzbgH4AMtI8?si=YL3nN1BaDVYMxLAp).
+
+## [DoomClone_V1](DoomClone_V1)
+
+Mejora del clon del Doom. 
+Puntuación, barreras en los bordes y música agregados.
