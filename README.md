@@ -55,3 +55,8 @@ Clon del Doom original siguiendo un [tutorial](https://youtu.be/jzbgH4AMtI8?si=Y
 
 Mejora del clon del Doom. 
 Puntuación, barreras en los bordes y música agregados.
+
+## [DoomClone_V2](DoomClone_V2)
+
+Mejora del clon del Doom v1. 
+Mejora en controles y skybox agregado.
